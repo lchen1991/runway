@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context="movies.lchen.com.runway2view.MainActivity">
+
+    <!--<movies.lchen.com.runway2view.RunwayView2-->
+        <!--android:id="@+id/run_way"-->
+        <!--android:layout_width="340dp"-->
+        <!--android:layout_height="300dp"/>-->
+
+    <SeekBar
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/rotationx"
+        />
+
+    <movies.lchen.com.runway2view.RoadView2
+        android:id="@+id/road_view"
+        android:layout_width="250dp"
+        android:layout_height="260dp" />
+</LinearLayout>
